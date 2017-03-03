@@ -36,8 +36,12 @@ projects[simple_menu_icons][version] = 1.x-dev
 projects[simple_menu_icons][patch][] = "https://www.drupal.org/files/issues/clear-cache-after-simple_menu_icons_css_generate-2847964.patch"
 projects[views_infinite_scroll] = 1.3
 projects[slick] = 1.0-rc1
+projects[slick_views] = 1.0-rc2
 projects[blazy] = 1.0-rc1
 projects[geolocation] = 1.9
+projects[confi][subdir] = contrib
+projects[confi][version] = 1.3
+projects[confi][patch][] = "https://www.drupal.org/files/issues/confi-drush-call-hooks-from-disabled-2856910.patch"
 
 libraries[dropzone][type] = library
 libraries[dropzone][download][type] = get
